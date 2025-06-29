@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+debug.log*
+.log
+
+# Editor & OS specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build files
+dist/
+build/
+out/
+
+# Coverage directory
+coverage/
+
+# Dependencies for package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Docker files (if using Docker)
+docker-compose.override.yml
+.dockerignore
+
+# Miscellaneous
+*.bak
